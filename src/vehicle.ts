@@ -58,6 +58,15 @@ class Vehicle {
       this.speed = 0
     }
   }
+
+  // this displays the status
+  status (): void {
+    console.log(`
+     ---> Speed: ${this.getSpeed()}
+     ---> Max speed: ${this.getMaxSpeed()}
+     ---> Color: ${this.getColor()}
+    `)
+  }
 }
 
 // export class for the main to use its methods
